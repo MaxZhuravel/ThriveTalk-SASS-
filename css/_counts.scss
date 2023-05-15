@@ -1,0 +1,37 @@
+.counts__image {
+  grid-column: span 4;
+}
+.counts__body {
+  grid-column: span 8;
+}
+.counts__wrap {
+  padding: 103px 0 42px 106px;
+}
+.counts__label {
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 225px;
+}
+.counts__text {
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  max-width: 676px;
+  margin-bottom: 152px;
+}
+.counts__link {
+  a {
+    color: #f9b640;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding: 10px 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

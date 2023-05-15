@@ -1,0 +1,27 @@
+.why {
+  background: $color1;
+  color: #ffffff;
+}
+.why__body {
+  flex: 1 1 auto;
+}
+.why__wrap {
+  margin: 151px 0 85px;
+}
+.why__content {
+  margin: 0 auto;
+  max-width: 555px;
+}
+.why__title {
+  font-size: 36px;
+  letter-spacing: -0.006em;
+  margin-bottom: 75px;
+}
+.why__text {
+  font-size: 24px;
+  line-height: 35px;
+  .small {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}

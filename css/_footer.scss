@@ -1,0 +1,35 @@
+.footer__body {
+  display: flex;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 95px;
+}
+.info__card {
+  flex: 0 1 180px;
+}
+.info__title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  letter-spacing: -0.006em;
+}
+.info__text {
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.006em;
+  color: rgba(34, 53, 111, 0.5);
+
+  p {
+    margin-top: 23px;
+  }
+  span {
+    color: #006dff;
+  }
+}
+.footer__copy {
+  background: $color1;
+  padding: 34px 179px;
+  color: #fff;
+}

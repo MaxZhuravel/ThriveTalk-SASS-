@@ -1,0 +1,97 @@
+.help__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &.small {
+    padding: 0 52.5px;
+    grid-column: span 3;
+    height: 360px;
+    &.first {
+      background: #ffe2de;
+    }
+    &.second {
+      background: #c4e769;
+    }
+    &.third {
+      background: $color1;
+    }
+    &.fourth {
+      background: #0052c1;
+    }
+  }
+  &.big {
+    padding: 0 70px;
+    grid-column: span 4;
+    height: 480px;
+    &.first {
+      background: $color2;
+    }
+    &.second {
+      background: #0052c1;
+    }
+    &.third {
+      background: url(../img/strawberries.jpg);
+    }
+    &.fourth {
+      background: #62d0df;
+    }
+    &.fiveth {
+      background: #dee1ff;
+    }
+    &.sixth {
+      background: #8f00ff;
+    }
+  }
+  &.white {
+    grid-column: span 4;
+    height: 240px;
+    padding: 55px 85px 0 105px;
+  }
+}
+.card__line {
+  border-bottom: 1px solid #fff;
+  height: 72px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.card__title {
+  width: 100%;
+  h3 {
+    position: relative;
+    color: white;
+    padding-left: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      left: 0px;
+      top: 9px;
+      border-radius: 50%;
+      background: #e9b730;
+      width: 9px;
+      height: 9px;
+    }
+  }
+  &-white {
+    width: 100%;
+    margin-bottom: 28px;
+    h3 {
+      font-size: 28px;
+      line-height: 33px;
+      letter-spacing: -0.03em;
+      color: $color2;
+    }
+  }
+}
+.white__card-text {
+  width: 100%;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: rgba(34, 53, 111, 0.5);
+}
